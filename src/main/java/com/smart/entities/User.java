@@ -34,4 +34,5 @@ public class User {
     private String about;
     @OneToMany(cascade = CascadeType.ALL,fetch = FetchType.LAZY,mappedBy = "user")
     private List<Contact>contacts=new ArrayList<>();
+    //This is my commit test
 }
